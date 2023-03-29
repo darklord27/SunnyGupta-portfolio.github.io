@@ -1,0 +1,109 @@
+/*****DIV and TAG CLASS SELCTORS*****/
+.topDiv {
+  background-color: rgb(225, 235, 235);
+  padding: 100px 0 0 0;
+  position: relative;
+}
+
+.midDiv {
+  padding: 100px 0 0;
+  margin-bottom:30px;
+}
+
+.skills-row{
+  margin: 30px;
+}
+
+.profile{
+  margin: 30px;
+}
+
+.bottomDiv {
+  padding: 50px;
+}
+
+
+
+.info {
+  margin: 0 auto;
+  width: 700px;
+  font-size: 24px;
+}
+
+/*****IMAGE CLASS SELCTORS*****/
+.topCloud {
+  position: absolute;
+  right: 125px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  bottom: 300px;
+  left: 150px;
+}
+
+.mountainImg {
+  align-self: auto;
+}
+
+.icon {
+  width: 10%;
+}
+
+.skill-row{
+  margin: 30px;
+}
+
+
+.footer-icon{
+  width : 50px;
+}
+
+.footer-table{
+  margin: 0 auto;
+  width: 800px;
+}
+
+.footer-link{
+  font-size: 1.5rem;
+}
+/*****ID SELCTORS*****/
+
+
+/*****TAG SELCTORS*****/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: rgb(74 ,177, 154);
+}
+
+h2 {
+  font-size: 3rem;
+  color: rgb(59 ,134, 106);
+}
+
+h3{
+  font-size: 2rem;
+  color: rgb(75, 170, 155);
+}
+
+hr {
+  width: 10%;
+  border: grey 5px;
+  border-style: dotted none none;
+}
+p{
+  font-family: 'Merriweather', serif;
+}
+span {
+  text-decoration: underline;
+}

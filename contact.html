@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Contact Me Page</title>
+  </head>
+  <body>
+    <h3>Kindly Fill In Your Information , And Click On Submit.</h3>
+    <hr>
+    <!-- we can make form , but then its not so aligned , lets add these elements into table -->
+    <!-- enctype , will help the system know the data is plain text and ntg else, so that if this data is sent to others then others can read it as text and not as encrypted data -->
+    <!--  action="index.html" -->
+    <!-- the action means when we hit submit we go to , our index,html page -->
+    <!-- we can make it post this data as an email by doing so -->
+    <form class="" action="mailto:parshwapatil9@gmail.com" method="post" enctype="text/plain">
+      <table cellspacing="5">
+        <tr>
+          <td><label for="NAME">NAME</label></td>
+          <td>:<input type="text" name="NAME"></td>
+        </tr>
+        <tr>
+          <td><label for="Email">E-MAIL</label></td>
+          <td>:<input type="email" name="Email"></td>
+        </tr>
+        <tr>
+          <td><label for="Contact Number">CONTACT NUMBER</label></td>
+          <td>:<input type="text" name="NAME"></td>
+        </tr>
+        <tr>
+          <td><label for="Message">YOUR MESSAGE</label></td>
+          <td>:<textarea name="Message" rows="1" cols="24"></textarea></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="SUBMIT"></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
